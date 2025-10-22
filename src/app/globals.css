@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* 🔄 Infinite scrolling animation */
+.scrolling-wrapper {
+  display: flex;
+  animation: scroll-left 25s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* 💗 Tech badge styling */
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: hsl(0, 0%, 100%); /* light pink background */
+  color: #000000; /* pink text */
+  font-weight: 500;
+  border-radius: 9999px;
+  border: 1px solid #f15397;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.badge:hover {
+  background: #d63384;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* 🎨 Icon color */
+.badge svg {
+  color: #d63384; /* pink icons */
+  transition: color 0.3s ease;
+}
+
+/* Icon color when hovered */
+.badge:hover svg {
+  color: white;
+}
