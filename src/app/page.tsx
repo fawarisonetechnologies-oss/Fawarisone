@@ -122,20 +122,18 @@ export default function Home() {
       <section className="bg-white text-gray-900 w-full py-12 px-6">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold">
-            Infinity Tech <span className="text-sky-500">Vision</span>
+            FawarisOne Technologies <span className="text-sky-500">Vision</span>
           </h2>
           <div className="w-16 h-1 bg-sky-400 mx-auto mt-3 mb-6 rounded"></div>
         </div>
 
         <div className="w-full">
           <p className="text-gray-800 text-base md:text-lg leading-7 md:leading-8 tracking-normal text-justify">
-            Infinity Tech Vision is a forward-thinking technology company focused on digital
-            innovation. We empower businesses through cutting-edge software, AI, and cloud
-            solutions. Our mission is to bridge the gap between ideas and execution with smart
-            technology. With a team of passionate engineers and designers, we craft scalable
-            digital experiences. From startups to enterprises, we offer tailored strategies for
-            sustainable growth. Innovation, integrity, and impact are at the core of everything we
-            build. Join us on a journey to transform ideas into intelligent solutions.
+           Fawarisone Technologies is a digital agency specializing in website design, SEO, and paid marketing.
+We help businesses build strong online visibility and achieve measurable growth.
+Our team combines creativity, strategy, and technology to deliver impactful results.
+From startups to enterprises, we craft tailored digital solutions that drive success.
+Empowering brands to grow smarter in the digital world is at the heart of what we do.
           </p>
         </div>
       </section>
