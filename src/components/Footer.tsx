@@ -16,7 +16,7 @@ export default function Footer() {
                                 <Link href="/" className="flex items-center">
                                     <img
                                         src="/FawarisOneTechnologies-logo.png" // Make sure your logo is in the public/ folder
-                                        alt="Infinity Techvision"
+                                        alt="Fawarisone"
                                         className="h-14 w-auto" // Adjust height; width auto keeps aspect ratio
                                     />
                                 </Link>
@@ -27,8 +27,8 @@ export default function Footer() {
                                 📍 Fawaris One, 5th Floor, Silicon Towers,
                                 <br /> Sector 63, Noida, UP 201301
                                 <br /> 📞 +91-9876543210
-                                <br /> ✉️ contact@infinitytechvision.com
-                            </p>
+                                <br /> ✉️ FawarisOneTechnologies@gmail.com </p>
+
 
                             {/* Social Icons */}
                             <div className="flex space-x-4 text-lg text-white mt-2">

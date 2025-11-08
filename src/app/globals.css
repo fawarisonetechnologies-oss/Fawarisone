@@ -66,3 +66,15 @@ body {
 .badge:hover svg {
   color: white;
 }
+@keyframes smoothPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.animate-smoothPulse {
+  animation: smoothPulse 2s ease-in-out infinite;
+}

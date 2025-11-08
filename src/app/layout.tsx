@@ -4,10 +4,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+
+
 export const metadata: Metadata = {
-  title: "Infinity Techvision",
+  title: "Fawarisone",
   description: "Digital Agency",
+  icons: {
+    icon: '/fawarisone-icon.png',  
+  },
 };
+
 
 // ✅ Default export required for layout
 export default function RootLayout({

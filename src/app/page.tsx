@@ -1,10 +1,28 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ShoppingBag, Stethoscope, Banknote, GraduationCap, Cloud, Home as HomeIcon, ConciergeBell, Car } from "lucide-react";
-import { Code, Brush, Wind, Zap, Atom, Layers, Server, Database, Flame } from "lucide-react";
+import {
+  ShoppingBag,
+  Stethoscope,
+  Banknote,
+  GraduationCap,
+  Cloud,
+  Home as HomeIcon,
+  ConciergeBell,
+  Car,
+  Code,
+  Brush,
+  Wind,
+  Zap,
+  Atom,
+  Layers,
+  Server,
+  Database,
+  Flame,
+} from "lucide-react";
 
+// 🔹 Technology Icons
 const technologies = [
   { name: "HTML5", icon: Code },
   { name: "CSS3", icon: Brush },
@@ -17,8 +35,43 @@ const technologies = [
   { name: "Firebase", icon: Flame },
 ];
 
+// 🔹 Industries Section
+const industries = [
+  { name: "E-Commerce", icon: ShoppingBag },
+  { name: "Healthcare", icon: Stethoscope },
+  { name: "Finance", icon: Banknote },
+  { name: "Education", icon: GraduationCap },
+  { name: "Cloud & SaaS", icon: Cloud },
+  { name: "Real Estate", icon: HomeIcon },
+  { name: "Hospitality", icon: ConciergeBell },
+  { name: "Automotive", icon: Car },
+];
+
 export default function Home() {
-  // Form state
+  // 🔹 Rotating text
+  const services = [
+    "SEO Services",
+    "Social Media Marketing",
+    "Web Design",
+    "Branding",
+    "AI Marketing",
+    "Performance Ads",
+  ];
+  const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false);
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % services.length);
+        setFade(true);
+      }, 500);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  // 🔹 Form state
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [service, setService] = useState("");
@@ -38,7 +91,6 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, number, service }),
       });
-
       const data = await res.json();
 
       if (data.success) {
@@ -55,74 +107,73 @@ export default function Home() {
     }
   };
 
-  // FAQ state
+  // 🔹 FAQ logic
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const toggleFaq = (i: number) =>
+    setOpenIndex(openIndex === i ? null : i);
 
   const faqData = [
     {
       question: "What services do you offer?",
       answer:
-        "We offer full-stack web development, UI/UX design, performance marketing, branding, and ongoing support.",
+        "We offer web development, UI/UX design, SEO, branding, and performance marketing.",
     },
     {
       question: "Do you redesign existing websites?",
       answer:
-        "Yes, we revamp outdated websites into modern, responsive, and high-performing digital experiences.",
+        "Yes, we transform outdated sites into modern, high-performing experiences.",
     },
     {
-      question: "How long does a project typically take?",
+      question: "How long does a project take?",
       answer:
-        "Depending on the complexity, projects usually take between 3 to 6 weeks from start to launch.",
+        "Typically between 3–6 weeks depending on scope and requirements.",
     },
     {
-      question: "Will my site be mobile-friendly?",
+      question: "Is my site mobile-friendly?",
       answer:
-        "Absolutely! All websites we build are fully responsive and optimized for all screen sizes.",
+        "Absolutely. All our sites are responsive across all devices.",
     },
     {
       question: "Do you provide ongoing support?",
       answer:
-        "Yes, we offer support plans for updates, performance monitoring, and technical assistance post-launch.",
+        "Yes, we offer maintenance, updates, and marketing support plans.",
     },
   ];
 
-  const toggleFaq = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
+  // 🔹 JSX
   return (
-
     <main className="bg-black text-white">
-      {/* Hero Section */}
-      <section className="w-full bg-black py-20 px-6 mt-14">
-        <div className="max-w-3xl mx-auto text-center space-y-6">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#00bfff]">
-            Grow Your Business With Our
-            <span
-              id="rotatingText"
-              className="text-white ml-2 transition-opacity duration-500 ease-in-out"
-            ></span>
-          </h1>
+      {/* 🌟 HERO SECTION */}
+<section className="w-full bg-black py-20 px-6 mt-14 text-center space-y-6">
+  <h1 className="text-4xl sm:text-5xl font-bold text-[#00bfff]">
+  Grow Your Business With Our
+  <br />
 
-          <p className="text-lg text-gray-400">
-            Your success is our mission. We build brands, drive traffic, and boost conversions.
-          </p>
+  <span
+    className={`text-pink-500 inline-block mt-4 transition-opacity duration-500 ${
+      fade ? "opacity-100" : "opacity-0"
+    }`}
+  >
+    {services[index]}
+  </span>
+</h1>
 
-          <Link
-            href="/contact"
-            className="inline-block bg-[#ff4081] text-white font-semibold px-6 py-3 rounded-full hover:bg-pink-600 transition-all"
-          >
-            Schedule a Call
-          </Link>
-        </div>
-      </section>
-
+  <p className="text-lg text-gray-400">
+    Empowering brands through creative strategy and digital innovation.
+  </p>
+  <Link
+    href="/contact"
+    className="inline-block bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition"
+  >
+    Schedule a Call
+  </Link>
+</section>
 
       {/* About Section */}
       <section className="bg-white text-gray-900 w-full py-12 px-6">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold">
-            FawarisOne Technologies <span className="text-sky-500">Vision</span>
+            FawarisOne <span className="text-sky-500">Technologies </span>
           </h2>
           <div className="w-16 h-1 bg-sky-400 mx-auto mt-3 mb-6 rounded"></div>
         </div>
@@ -170,56 +221,56 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/ff7f50/bell.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-1.svg"
+                className="h-10 w-10"
                 alt="Digital Presence"
               />
-              <span className="font-semibold">Digital Presence Boost</span>
+              <span className="font-semibold">Smart Ways to Grow Your Business</span>
             </div>
 
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/ff4081/combo-chart.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-2.svg"
+                className="h-10 w-10"
                 alt="Revenue Growth"
               />
-              <span className="font-semibold">Strategic Revenue Growth</span>
+              <span className="font-semibold">All-in-One Marketing Help</span>
             </div>
 
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/f06292/increase.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-3.svg"
+                className="h-10 w-10"
                 alt="Growth Engine"
               />
-              <span className="font-semibold">Growth Engine Strategy</span>
+              <span className="font-semibold">AI That Works for You</span>
             </div>
 
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/9c27b0/line-chart.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-4.svg"
+                className="h-10 w-10"
                 alt="Data Insights"
               />
-              <span className="font-semibold">Smart Data Insights</span>
+              <span className="font-semibold">Be Seen Everywhere Online</span>
             </div>
 
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/ec407a/settings.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-5.svg"
+                className="h-10 w-10"
                 alt="Tech Ecosystem"
               />
-              <span className="font-semibold">Unified Tech Ecosystem</span>
+              <span className="font-semibold">Websites That Bring Customers</span>
             </div>
 
             <div className="feature-box bg-white text-black flex items-center gap-3 p-5 rounded-xl shadow hover:shadow-lg transition">
               <img
-                src="https://img.icons8.com/ios-filled/50/4caf50/robot-2.png"
-                className="h-6 w-6"
+                src="/fawarisone-homepage-icon-6.svg"
+                className="h-10 w-10"
                 alt="AI Automation"
               />
-              <span className="font-semibold">AI-Powered Automation</span>
+              <span className="font-semibold">Easy Plans for Every Business</span>
             </div>
           </div>
         </div>
@@ -259,58 +310,59 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         </div>
       </section>
       <section className="bg-white py-16">
-        {/* Heading with underline */}
-        <h2
-          className="relative text-center text-3xl md:text-4xl font-bold mb-12
+  {/* Heading with underline */}
+  <h2
+    className="relative text-center text-3xl md:text-4xl font-bold mb-12
       after:content-[''] after:block after:w-20 after:h-1 after:bg-[#00bfff] after:mt-3 after:rounded after:mx-auto"
-        >
-          <span className="text-black">India&apos;s Leading Digital</span>{" "}
-          <span className="text-[#00bfff]">Marketing Agency</span>
-        </h2>
+  >
+    <span className="text-black">India&apos;s Leading</span>{" "}
+    <span className="text-[#00bfff]">AI-Powered Digital Agency</span>
+  </h2>
 
+  {/* Main Content Grid */}
+  <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    {/* Text Section */}
+    <div className="space-y-6">
+      <p className="text-sm uppercase text-gray-500 font-semibold tracking-wider">
+        About Us
+      </p>
 
+      <h3 className="text-2xl md:text-3xl leading-snug text-black">
+        <span className="font-bold text-black">Empowering Businesses</span>{" "}
+        <span className="font-bold text-[#00bfff]">with AI-Driven</span>{" "}
+        <span className="font-bold text-black">Digital Growth</span>
+          <span className="font-bold text-[#00bfff]"> - Since 2014</span>
+      </h3>
 
-        {/* Main Content Grid */}
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-          {/* Text Section */}
-          <div className="space-y-6">
-            <p className="text-sm uppercase text-gray-500 font-semibold tracking-wider">
-              About Us
-            </p>
+      <p className="text-black leading-relaxed">
+        Founded in 2014, we are one of India’s most trusted{" "}
+        <span className="font-semibold text-[#00bfff]">
+          AI-driven Digital Media Agencies,
+        </span>{" "}
+        helping brands enhance visibility, engagement, and ROI through the
+        power of intelligent automation and creative strategy.
+      </p>
 
-            <h3 className="text-2xl md:text-3xl leading-snug text-black">
-              <span className="font-bold text-black">Helping Clients</span>{" "}
-              <span className="font-bold text-[#00bfff]">Build Digital Media</span>{" "}
-              <span className="font-bold text-black">Presence</span>
-              <br />
-              <span className="font-bold text-[#00bfff]">Since 2014</span>
-            </h3>
+      <a
+        href="#"
+        className="inline-block px-5 py-2 rounded-full border border-[#00bfff] text-sm font-medium text-[#00bfff] hover:bg-[#00bfff] hover:text-white transition"
+      >
+        &gt; Read More
+      </a>
+    </div>
 
-            <p className="text-black leading-relaxed">
-              Founded in 2014, we are one of the leading{" "}
-              <span className="font-semibold text-[#00bfff]">
-                Digital Media Agencies In India.
-              </span>
-            </p>
+    {/* Image Section */}
+   <div className="flex justify-center">
+  <img
+    src="/Fawarisone-marketing.png"
+    alt="AI Digital Agency Office"
+    className="w-[50%] animate-smoothPulse"
+  />
+</div>
 
-            <a
-              href="#"
-              className="inline-block px-5 py-2 rounded-full border border-[#00bfff] text-sm font-medium text-[#00bfff] hover:bg-[#00bfff] hover:text-white transition"
-            >
-              &gt; Read More
-            </a>
-          </div>
+  </div>
+</section>
 
-          {/* Image Section */}
-          <div className="flex justify-center">
-            <img
-              src="/images/modern-office.jpg"
-              alt="Office Image"
-              className="w-full max-w-md rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105"
-            />
-          </div>
-        </div>
-      </section>
       {/* Your Other Page Content */}
 
       {/* Services Section */}
