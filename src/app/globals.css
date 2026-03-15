@@ -22,7 +22,7 @@ body {
 /* 🔄 Infinite scrolling animation */
 .scrolling-wrapper {
   display: flex;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 45s linear infinite;
 }
 
 @keyframes scroll-left {

@@ -50,6 +50,7 @@ const industries = [
 export default function Home() {
   // 🔹 Rotating text
   const services = [
+    "AI Software Development",
     "SEO Services",
     "Social Media Marketing",
     "Web Design",
@@ -162,7 +163,9 @@ export default function Home() {
     Empowering brands through creative strategy and digital innovation.
   </p>
   <Link
-    href="/contact"
+    href="https://wa.me/919540003620"
+    target="_blank"
+    rel="noopener noreferrer"
     className="inline-block bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition"
   >
     Schedule a Call
@@ -210,7 +213,9 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
             </p>
 
             <Link
-              href="/contact"
+              href="https://wa.me/919540003620"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#ff4081] hover:bg-[#e73370] text-black px-6 py-2 rounded-[35px] font-semibold inline-block"
             >
               Schedule a Meeting
@@ -363,7 +368,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
   </div>
 </section>
 
-      {/* Your Other Page Content */}
+   
 
       {/* Services Section */}
       <section className="bg-black py-20 px-4 text-white">

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { FaTwitter, FaTelegram, FaLinkedinIn, FaYoutube, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaTwitter, FaTelegram, FaLinkedinIn, FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -26,7 +26,7 @@ export default function Footer() {
                             <p className="text-gray-400 text-sm leading-relaxed">
                                 📍 Fawaris One, 5th Floor, Silicon Towers,
                                 <br /> Sector 63, Noida, UP 201301
-                                <br /> 📞 +91-9876543210
+                                <br /> 📞 +91-9540003620, 9540003236
                                 <br /> ✉️ FawarisOneTechnologies@gmail.com </p>
 
 
@@ -34,10 +34,10 @@ export default function Footer() {
                             <div className="flex space-x-4 text-lg text-white mt-2">
                                 <a href="#" className="hover:text-[#00bfff]"><FaTwitter /></a>
                                 <a href="#" className="hover:text-[#00bfff]"><FaTelegram /></a>
-                                <a href="#" className="hover:text-[#00bfff]"><FaLinkedinIn /></a>
+                                <a href="https://www.linkedin.com/company/fawarisone/" target="_blank" rel="noopener noreferrer" className="hover:text-[#00bfff]"><FaLinkedinIn /></a>
                                 <a href="#" className="hover:text-[#00bfff]"><FaYoutube /></a>
-                                <a href="#" className="hover:text-[#00bfff]"><FaInstagram /></a>
-                                <a href="#" className="hover:text-[#00bfff]"><FaFacebookF /></a>
+                                <a href="https://www.instagram.com/fawarisonetechnologies/" target="_blank" rel="noopener noreferrer" className="hover:text-[#00bfff]"><FaInstagram /></a>
+                                <a href="https://wa.me/919540003620" target="_blank" rel="noopener noreferrer" className="hover:text-[#00bfff]"><FaWhatsapp /></a>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    /* === JavaScript Target Settings === */
     "target": "ES2020",
     "lib": ["dom", "dom.iterable", "esnext"],
+
+    /* === Core TypeScript Options === */
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -14,14 +17,25 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+
+    /* === ✅ Correct Path Aliases (for "@/..." imports) === */
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "plugins": [
-      { "name": "next" }
-    ]
+
+    /* === Next.js Language Server Integration === */
+    "plugins": [{ "name": "next" }]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+
+  /* === Files to Include in Type Checking === */
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+
+  /* === Files/Folders to Exclude === */
   "exclude": ["node_modules"]
 }

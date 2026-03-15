@@ -41,3 +41,10 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# blog (excluded from repo)
+src/app/blog/
+src/app/api/blogs/
+src/components/BlogCard.tsx
+src/content/
+src/lib/blogs.ts

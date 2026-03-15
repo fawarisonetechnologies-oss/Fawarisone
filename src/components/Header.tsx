@@ -17,7 +17,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <img
             src="/FawarisOneTechnologies-logo.png" // Make sure your logo is in the public/ folder
-            alt="Infinity Techvision"
+            alt="Fawarisone Technologies"
             className="h-14 w-auto" // Adjust height; width auto keeps aspect ratio
           />
         </Link>
