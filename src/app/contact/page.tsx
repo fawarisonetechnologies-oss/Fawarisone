@@ -197,8 +197,8 @@ Chat on WhatsApp
           <Phone className="w-6 h-6 text-[#00bfff]" />
         </div>
         <div>
-          <p className="text-gray-400 text-sm uppercase tracking-widest mb-1">Phone</p>
-          <a href="tel:+919540003620" className="text-white text-xl font-semibold hover:text-[#00bfff] transition">+91 9540003620</a>
+          <p className="text-gray-400 text-sm mb-1">Phone</p>
+          <a href="tel:+919540003620" className="text-white text-base hover:text-[#00bfff] transition">+91 9540003620</a>
         </div>
       </div>
 
@@ -209,8 +209,8 @@ Chat on WhatsApp
           <Mail className="w-6 h-6 text-[#00bfff]" />
         </div>
         <div>
-          <p className="text-gray-400 text-sm uppercase tracking-widest mb-1">Email</p>
-          <a href="mailto:contactus@fawarisone.com" className="text-white text-xl font-semibold hover:text-[#00bfff] transition">contactus@fawarisone.com</a>
+          <p className="text-gray-400 text-sm mb-1">Email</p>
+          <a href="mailto:contactus@fawarisone.com" className="text-white text-base hover:text-[#00bfff] transition">contactus@fawarisone.com</a>
         </div>
       </div>
 
@@ -221,8 +221,8 @@ Chat on WhatsApp
           <MapPin className="w-6 h-6 text-[#00bfff]" />
         </div>
         <div>
-          <p className="text-gray-400 text-sm uppercase tracking-widest mb-1">Address</p>
-          <p className="text-white text-xl font-semibold leading-relaxed">H-66 GF KH 260/63, Aali Vihar,<br/>New Delhi, South Delhi,<br/>Delhi - 110076, India</p>
+          <p className="text-gray-400 text-sm mb-1">Address</p>
+          <p className="text-white text-base leading-relaxed">H-66 GF KH 260/63, Aali Vihar,<br/>New Delhi, South Delhi,<br/>Delhi - 110076, India</p>
         </div>
       </div>
     </div>
