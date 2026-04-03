@@ -8,6 +8,7 @@
 
 
 @media (prefers-color-scheme: dark) {
+  
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -22,7 +23,7 @@ body {
 /* 🔄 Infinite scrolling animation */
 .scrolling-wrapper {
   display: flex;
-  animation: scroll-left 80s linear infinite;
+  animation: scroll-left 45s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -34,7 +35,7 @@ body {
   }
 }
 
-/* 💗 Tech badge styling */
+/* Tech badge styling */
 .badge {
   display: flex;
   align-items: center;
@@ -56,7 +57,7 @@ body {
   transform: scale(1.05);
 }
 
-/* 🎨 Icon color */
+/* Icon color */
 .badge svg {
   color: #d63384; /* pink icons */
   transition: color 0.3s ease;

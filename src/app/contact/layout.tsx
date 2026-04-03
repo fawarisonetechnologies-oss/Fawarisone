@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Website Development & Digital Services – Fawarisone Technologies",
+  title: "Contact Us | Web Design & Digital Services – Fawarisone Technologies",
   description:
     "Get in touch with Fawarisone Technologies for professional website design, development, SEO, and digital solutions. Contact our team today for a free consultation and grow your business online.",
   keywords: [

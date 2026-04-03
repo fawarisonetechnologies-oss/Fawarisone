@@ -385,7 +385,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {/* Service Card */}
           <a
-            href="#mobile-app"
+            href="/services/mobile-apps" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Mobile App Development</div>
@@ -395,7 +395,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#software"
+            href="/services/web-development" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Software Development</div>
@@ -405,7 +405,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#digital"
+            href="/services/seo-services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Digital Transformation</div>
@@ -415,7 +415,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#uiux"
+            href="/services/ui-ux-design" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">UI/UX Strategy</div>
@@ -425,7 +425,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#consulting"
+            href="/services/ppc-ads" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">IT Consulting</div>
@@ -435,7 +435,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#devops"
+            href="/services/web-development" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">DevOps</div>
@@ -445,7 +445,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="#cloud"
+            href="/services/cms-development" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Cloud Services</div>
@@ -456,7 +456,8 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
 
           {/* CTA Card */}
           <a
-            href="#services"
+            href="/services"
+            target="_blank"
             className="cursor-pointer bg-gradient-to-br from-[#ff4081] to-[#c13584] p-6 rounded-xl flex items-center justify-center"
           >
             <span className="text-white font-semibold text-sm px-5 py-2 border border-white rounded-full hover:bg-white hover:text-[#ff4081] transition">
@@ -790,3 +791,6 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
     </main>
   );
 }
+
+
+

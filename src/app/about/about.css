@@ -56,25 +56,11 @@
 
 .about-hero p,
 .about-hero-p {
-  font-size: 0.9rem;
+  font-size: 1.125rem;
   color: #9ca3af;
   max-width: 48rem;
   margin: 0 auto;
   line-height: 1.7;
-}
-
-@media (min-width: 640px) {
-  .about-hero p,
-  .about-hero-p {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .about-hero p,
-  .about-hero-p {
-    font-size: 1.125rem;
-  }
 }
 
 .about-hero-btn {
@@ -309,22 +295,10 @@
 }
 
 .about-content-desc {
-  font-size: 0.85rem;
-  color: #d1d5db;
+  font-size: 1.125rem;
+  color: #9ca3af;
   line-height: 1.7;
   margin: 0;
-}
-
-@media (min-width: 640px) {
-  .about-content-desc {
-    font-size: 0.9rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .about-content-desc {
-    font-size: 1rem;
-  }
 }
 
 .about-content-btn {
@@ -465,18 +439,11 @@
 }
 
 .about-form-subtext {
-  font-size: 0.85rem;
+  font-size: 1.125rem;
   color: #9ca3af;
   max-width: 36rem;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 32px auto;
   line-height: 1.7;
-}
-
-@media (min-width: 640px) {
-  .about-form-subtext {
-    font-size: 0.95rem;
-    margin: 0 auto 32px auto;
-  }
 }
 
 .about-form {
@@ -645,17 +612,11 @@
 }
 
 .about-faq-subtext {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   color: #6b7280;
   max-width: 40rem;
   margin: 0 auto;
   line-height: 1.7;
-}
-
-@media (min-width: 640px) {
-  .about-faq-subtext {
-    font-size: 1rem;
-  }
 }
 
 .about-faq-list {
@@ -730,15 +691,8 @@
 }
 
 .about-faq-answer {
-  padding: 0 18px 16px 18px;
-  font-size: 0.85rem;
+  padding: 0 24px 20px 24px;
+  font-size: 1.125rem;
   color: #4b5563;
   line-height: 1.75;
-}
-
-@media (min-width: 640px) {
-  .about-faq-answer {
-    padding: 0 24px 20px 24px;
-    font-size: 0.95rem;
-  }
 }
