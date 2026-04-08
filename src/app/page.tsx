@@ -738,6 +738,94 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         </form>
       </section>
 
+      {/* CONTENT SCROLL BOX */}
+      <section className="w-full bg-black py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="content-scroll-box">
+            <div className="content-scroll-inner">
+              <h1>Fawarisone Technologies: Digital Marketing &amp; Web Development Company in India</h1>
+              <p>In today&apos;s digital-first world, your website is often the first impression of your business. But many companies struggle with slow loading websites, outdated design, no mobile optimization, low conversions, and weak online presence.</p>
+              <p>In 2026, a website is not just an option &mdash; it&apos;s a necessity. A professional website builds trust, improves user experience, and directly impacts your sales and growth.</p>
+              <p>Fawarisone Technologies, a leading web development company in Noida, helps businesses create powerful websites and digital strategies that drive real results.</p>
+
+              <h3>Why a Professional Website Matters More Than Ever</h3>
+              <p>A strong website is the backbone of your online success.</p>
+              <ul>
+                <li>Builds trust &ndash; A modern design makes your business look reliable and professional.</li>
+                <li>Improves user experience &ndash; Easy navigation keeps visitors engaged longer.</li>
+                <li>Boosts conversions &ndash; A well-structured site turns visitors into customers.</li>
+                <li>Supports SEO &ndash; Optimized websites rank higher on Google.</li>
+              </ul>
+              <p>A weak website can cost you customers, while a strong one brings continuous growth.</p>
+
+              <h3>Web Development Services</h3>
+              <h4>1. Custom Website Development</h4>
+              <p>Custom websites are built specifically for your business needs &ndash; unique design, scalable structure, and better performance optimized for speed and flexibility.</p>
+
+              <h4>2. Types of Websites We Build</h4>
+              <p><strong>Business Websites</strong> &ndash; Designed for companies that want to generate leads and build authority with service-focused pages and contact integration.</p>
+              <p><strong>eCommerce Websites</strong> &ndash; Built for selling products online with secure payments and easy navigation.</p>
+              <p><strong>Portfolio Websites</strong> &ndash; Perfect for showcasing work with visual presentation and professional identity.</p>
+
+              <h4>3. Responsive Web Design</h4>
+              <p>Responsive design ensures your website works on all devices &ndash; mobile-friendly layout, better SEO, and improved engagement.</p>
+
+              <h4>4. Website Speed Optimization</h4>
+              <p>Faster loading keeps users from leaving, improves conversions, and gives you an SEO advantage as speed is a key ranking factor on Google.</p>
+
+              <h4>5. UI/UX Design Importance</h4>
+              <p>Good design is not just about looks &mdash; simple navigation, clear CTAs, and better experience make browsing smooth and enjoyable.</p>
+
+              <h4>6. SEO-Friendly Website Structure</h4>
+              <p>Clean URLs, optimized content, and technical setup improve indexing and visibility on search engines.</p>
+
+              <h4>7. Security and Performance</h4>
+              <p>SSL protection, regular updates, and stable performance ensure your site runs smoothly and keeps user data safe.</p>
+
+              <h4>8. Conversion-Focused Design</h4>
+              <p>Strong headlines, lead forms, and trust signals like reviews and testimonials increase credibility and generate results.</p>
+
+              <h3>Real-Life Use Cases</h3>
+              <ul>
+                <li>Local business growth &ndash; A redesigned website increased leads by improving UX and SEO.</li>
+                <li>eCommerce success &ndash; Faster checkout and better design doubled sales.</li>
+                <li>Startup branding &ndash; A professional website attracted investors and clients.</li>
+              </ul>
+
+              <h3>The Digital Growth Journey</h3>
+              <p>Every successful online business follows this path:</p>
+              <p>Website &rarr; User Experience &rarr; SEO &rarr; Traffic &rarr; Leads &rarr; Brand Growth</p>
+
+              <h3>Digital Marketing Services (Supporting Growth)</h3>
+              <h4>1. Search Engine Optimization (SEO)</h4>
+              <p>Keyword targeting, on-page optimization, and technical SEO to rank higher on Google and bring relevant traffic.</p>
+
+              <h4>2. Social Media Marketing</h4>
+              <p>Brand awareness and engagement across platforms to build relationships with customers.</p>
+
+              <h4>3. Content Marketing</h4>
+              <p>Blogs, articles, and SEO content to improve rankings and organic traffic.</p>
+
+              <h4>4. Lead Generation Strategies</h4>
+              <p>Landing pages, paid ads, and email marketing to nurture potential customers into buyers.</p>
+
+              <h3>Why Choose Fawarisone Technologies?</h3>
+              <ul>
+                <li><strong>Affordable Pricing</strong> &ndash; High-quality services at budget-friendly rates for all business sizes.</li>
+                <li><strong>Result-Driven Approach</strong> &ndash; Focus on delivering measurable outcomes like leads and sales.</li>
+                <li><strong>End-to-End Services</strong> &ndash; From website development to digital marketing, everything in one place.</li>
+                <li><strong>Local Expertise in Noida</strong> &ndash; Deep understanding of the local market helps target the right audience.</li>
+              </ul>
+
+              <h3>Conclusion: Build, Grow, and Scale Your Business</h3>
+              <p>Your website is the foundation of your digital success. Whether you need custom web development services, eCommerce solutions, or Shopify web development services, Fawarisone Technologies delivers high-quality, scalable solutions. Recognized as the best eCommerce website development company, we help businesses grow faster online.</p>
+              <p>Visit: <a href="https://www.fawarisone.com" className="text-[#00bfff] hover:underline">www.fawarisone.com</a> &nbsp;|&nbsp; Call: 9540003620 / 9540003236</p>
+              <p>Partner with a trusted web development company in Noida to transform your online presence into a powerful growth engine.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <section className="bg-white w-full py-24 px-6">
         <div className="text-center mb-12">
@@ -791,6 +879,8 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
     </main>
   );
 }
+
+
 
 
 

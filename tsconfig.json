@@ -21,7 +21,6 @@
     "jsx": "react-jsx",
     "incremental": true,
     /* === ✅ Correct Path Aliases (for "@/..." imports) === */
-    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
