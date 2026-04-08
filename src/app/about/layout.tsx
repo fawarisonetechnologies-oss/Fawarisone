@@ -1,32 +1,31 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Web Development Company | Website Design, WordPress, SEO – Fawarisone Technologies",
+  title: "Fawarisone Technologies | About Us – Web Development & Digital Marketing Company India",
   description:
-    "Hire Fawarisone Technologies for website design, WordPress development, eCommerce websites, SEO services, and responsive web development to grow your business online.",
+    "Fawarisone Technologies is India's trusted web development company and Digital Marketing Company. Learn about our team, mission, and expertise in website design, SEO, PPC, and online growth.",
   keywords: [
     "web development company India",
-    "website design company",
-    "WordPress development",
-    "eCommerce website development",
-    "SEO services India",
-    "responsive web development",
-    "digital marketing agency",
+    "Digital Marketing Company India",
+    "Fawarisone",
     "Fawarisone Technologies",
+    "about Fawarisone Technologies",
+    "website design company India",
+    "SEO agency India",
   ],
   openGraph: {
-    title: "Best Web Development Company | Website Design, WordPress, SEO – Fawarisone Technologies",
+    title: "Fawarisone Technologies | About Us – Web Development & Digital Marketing Company India",
     description:
-      "Hire Fawarisone Technologies for website design, WordPress development, eCommerce websites, SEO services, and responsive web development to grow your business online.",
+      "Fawarisone Technologies is India's trusted web development company and Digital Marketing Company. Learn about our team, mission, and expertise in website design, SEO, PPC, and online growth.",
     url: "https://fawarisone.com/about",
     siteName: "Fawarisone Technologies",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Web Development Company | Website Design, WordPress, SEO – Fawarisone Technologies",
+    title: "Fawarisone Technologies | About Us – Web Development & Digital Marketing Company India",
     description:
-      "Hire Fawarisone Technologies for website design, WordPress development, eCommerce websites, SEO services, and responsive web development to grow your business online.",
+      "Fawarisone Technologies is India's trusted web development company and Digital Marketing Company.",
   },
   alternates: {
     canonical: "https://fawarisone.com/about",
@@ -36,3 +35,4 @@ export const metadata: Metadata = {
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
+

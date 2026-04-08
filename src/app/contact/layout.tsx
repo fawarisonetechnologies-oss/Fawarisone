@@ -1,29 +1,31 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Web Design & Digital Services – Fawarisone Technologies",
+  title: "Fawarisone Technologies | Contact Us – Web Development & Digital Marketing India",
   description:
-    "Get in touch with Fawarisone Technologies for professional website design, development, SEO, and digital solutions. Contact our team today for a free consultation and grow your business online.",
+    "Contact Fawarisone Technologies for web development, website design, eCommerce development, SEO, PPC, and digital marketing services in India. Get a free consultation today.",
   keywords: [
     "contact Fawarisone Technologies",
-    "website development Delhi",
+    "web development company India",
+    "Digital Marketing Company India",
+    "Fawarisone",
+    "website design India",
     "SEO services India",
-    "digital marketing agency",
     "free consultation",
   ],
   openGraph: {
-    title: "Contact Us | Website Development & Digital Services – Fawarisone Technologies",
+    title: "Fawarisone Technologies | Contact Us – Web Development & Digital Marketing India",
     description:
-      "Get in touch with Fawarisone Technologies for professional website design, development, SEO, and digital solutions. Contact our team today for a free consultation and grow your business online.",
+      "Contact Fawarisone Technologies for web development, website design, eCommerce development, SEO, PPC, and digital marketing services in India. Get a free consultation today.",
     url: "https://fawarisone.com/contact",
     siteName: "Fawarisone Technologies",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us | Website Development & Digital Services – Fawarisone Technologies",
+    title: "Fawarisone Technologies | Contact Us – Web Development & Digital Marketing India",
     description:
-      "Get in touch with Fawarisone Technologies for professional website design, development, SEO, and digital solutions.",
+      "Contact Fawarisone Technologies for web development, SEO, PPC, and digital marketing services in India.",
   },
   alternates: {
     canonical: "https://fawarisone.com/contact",
@@ -33,3 +35,4 @@ export const metadata: Metadata = {
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
+

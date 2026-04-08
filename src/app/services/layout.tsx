@@ -1,33 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services in India | SEO, PPC, SMM – Fawarisone Technologies",
+  title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
   description:
-    "Explore Fawarisone Technologies digital marketing services including SEO, PPC, social media marketing, web development, and lead generation to grow your business online.",
+    "Explore Fawarisone Technologies web development and digital marketing services including website design, eCommerce development, SEO, PPC, social media marketing, and lead generation in India.",
   keywords: [
-    "Digital Marketing Services in India",
+    "web development services India",
+    "digital marketing services India",
+    "Fawarisone",
+    "Fawarisone Technologies",
+    "website design India",
+    "eCommerce development India",
     "SEO services India",
     "PPC advertising India",
-    "social media marketing",
-    "web development company India",
-    "lead generation services",
-    "performance marketing",
-    "eCommerce SEO",
-    "Fawarisone Technologies",
+    "social media marketing India",
   ],
   openGraph: {
-    title: "Digital Marketing Services in India | SEO, PPC, SMM – Fawarisone Technologies",
+    title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
     description:
-      "Explore Fawarisone Technologies digital marketing services including SEO, PPC, social media marketing, web development, and lead generation to grow your business online.",
+      "Explore Fawarisone Technologies web development and digital marketing services including website design, eCommerce development, SEO, PPC, social media marketing, and lead generation in India.",
     url: "https://fawarisone.com/services",
     siteName: "Fawarisone Technologies",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing Services in India | SEO, PPC, SMM – Fawarisone Technologies",
+    title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
     description:
-      "Explore Fawarisone Technologies digital marketing services including SEO, PPC, social media marketing, web development, and lead generation to grow your business online.",
+      "Explore Fawarisone Technologies web development and digital marketing services including website design, SEO, PPC, and social media marketing.",
   },
   alternates: {
     canonical: "https://fawarisone.com/services",
@@ -37,3 +37,4 @@ export const metadata: Metadata = {
 export default function ServicesLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
+
