@@ -1,5 +1,40 @@
-/* ===== SERVICES PAGE STYLES ===== */
-/* This file is exclusively for the Services page */
+/* ===== GLOBAL P TAG STYLE FOR SERVICES PAGE ===== */
+.services-hero p,
+.services-grid-header p,
+.services-industries-desc,
+.services-why-card p,
+.services-cta p,
+.services-faq-subtext,
+.services-faq-answer,
+.services-form-status,
+.content-scroll-inner p {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.75rem;
+  letter-spacing: normal;
+  text-align: justify;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .services-hero p,
+  .services-grid-header p,
+  .services-industries-desc,
+  .services-why-card p,
+  .services-cta p,
+  .services-faq-subtext,
+  .services-faq-answer,
+  .services-form-status,
+  .content-scroll-inner p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}
+
 
 /* ===== HERO SECTION ===== */
 .services-hero {
@@ -63,11 +98,9 @@
 }
 
 .services-hero p {
-  font-size: 1.125rem;
+  max-width: 100%;
+  padding: 0;
   color: #9ca3af;
-  max-width: 48rem;
-  margin: 0 auto;
-  line-height: 1.7;
 }
 
 .services-hero-btn {
@@ -137,11 +170,20 @@
 }
 
 .services-grid-header p {
-  font-size: 1.125rem;
-  color: #374151;
-  max-width: 40rem;
-  margin: 0 auto;
-  line-height: 1.7;
+  font-size: 1rem;
+  color: #1f2937;
+  max-width: 100%;
+  margin: 0;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .services-grid-header p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
 }
 
 .services-grid {
@@ -406,10 +448,12 @@
 }
 
 .services-cta p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #9ca3af;
-  line-height: 1.7;
+  line-height: 1.75rem;
   margin: 0;
+  max-width: 100%;
+  text-align: justify;
 }
 
 .services-cta-btn {
@@ -480,11 +524,12 @@
 }
 
 .services-industries-desc {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #9ca3af;
-  max-width: 40rem;
-  margin: 0 auto 48px auto;
-  line-height: 1.7;
+  max-width: 100%;
+  margin: 0 0 48px 0;
+  line-height: 1.75rem;
+  text-align: justify;
 }
 
 .services-industries-grid {
@@ -708,11 +753,12 @@
 }
 
 .services-faq-subtext {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #6b7280;
-  max-width: 40rem;
-  margin: 0 auto;
-  line-height: 1.7;
+  max-width: 100%;
+  margin: 0;
+  line-height: 1.75rem;
+  text-align: center;
 }
 
 .services-faq-list {
@@ -798,4 +844,119 @@
   font-weight: 400;
   margin: 0;
   color: inherit;
+}
+
+/* ===== CONTENT SCROLL BOX ===== */
+.content-scroll-box {
+  height: 320px;
+  overflow-y: auto;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 24px;
+  background: #0a0a0a;
+  scrollbar-width: thin;
+  scrollbar-color: #00bfff #1f2937;
+}
+
+.content-scroll-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.content-scroll-box::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 9999px;
+}
+
+.content-scroll-box::-webkit-scrollbar-thumb {
+  background: #00bfff;
+  border-radius: 9999px;
+}
+
+.content-scroll-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-scroll-inner p {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.content-scroll-inner h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00bfff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.content-scroll-inner h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00bfff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.content-scroll-inner h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #00bfff;
+  margin: 0;
+}
+
+.content-scroll-inner h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.content-scroll-inner ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+}
+
+.content-scroll-inner li {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  line-height: 1.7;
+}
+
+.content-scroll-inner strong {
+  color: #fff;
+}
+
+/* ===== CONTENT SCROLL SECTION WRAPPER ===== */
+.services-content-scroll-section {
+  width: 100%;
+  background: #000;
+  padding: 64px 24px;
+}
+
+.services-content-scroll-wrap {
+  max-width: 896px;
+  margin: 0 auto;
+}
+
+/* ===== FAQ INTERLINK BUTTON ===== */
+.services-faq-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #00bfff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.services-faq-link:hover {
+  color: #38bdf8;
+  text-decoration: underline;
 }

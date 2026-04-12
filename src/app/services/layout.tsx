@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
+  title: "Web Development & Digital Marketing Services in India: Fawarisone Technologies",
   description:
-    "Explore Fawarisone Technologies web development and digital marketing services including website design, eCommerce development, SEO, PPC, social media marketing, and lead generation in India.",
+    "web development, SEO, PPC, branding and digital marketing services, how they work, and how Fawarisone Technologies helps grow your business in India.",
   keywords: [
     "web development services India",
     "digital marketing services India",
@@ -16,18 +16,18 @@ export const metadata: Metadata = {
     "social media marketing India",
   ],
   openGraph: {
-    title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
+    title: "Web Development & Digital Marketing Services in India: Fawarisone Technologies",
     description:
-      "Explore Fawarisone Technologies web development and digital marketing services including website design, eCommerce development, SEO, PPC, social media marketing, and lead generation in India.",
+      "web development, SEO, PPC, branding and digital marketing services, how they work, and how Fawarisone Technologies helps grow your business in India.",
     url: "https://fawarisone.com/services",
     siteName: "Fawarisone Technologies",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fawarisone Technologies | Web Development & Digital Marketing Services in India",
+    title: "Web Development & Digital Marketing Services in India: Fawarisone Technologies",
     description:
-      "Explore Fawarisone Technologies web development and digital marketing services including website design, SEO, PPC, and social media marketing.",
+      "web development, SEO, PPC, branding and digital marketing services, how they work, and how Fawarisone Technologies helps grow your business in India.",
   },
   alternates: {
     canonical: "https://fawarisone.com/services",
