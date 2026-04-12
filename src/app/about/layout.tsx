@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Fawarisone Technologies",
     "about Fawarisone Technologies",
     "website design company India",
-    "SEO agency India",
+    "SEO company India",
   ],
   openGraph: {
     title: "Fawarisone Technologies | About Us – Web Development & Digital Marketing Company India",
@@ -35,4 +35,5 @@ export const metadata: Metadata = {
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
+
 

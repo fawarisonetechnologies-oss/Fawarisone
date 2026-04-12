@@ -25,7 +25,7 @@ export default function AboutPage() {
   const faqData = [
     {
       question: "What is Fawarisone Technologies?",
-      answer: "Fawarisone Technologies is a leading AI-powered digital marketing agency in India, specializing in SEO, PPC, social media marketing, website development, and performance marketing to help businesses grow online.",
+      answer: "Fawarisone Technologies is a leading AI-powered digital marketing company in India, specializing in SEO, PPC, social media marketing, website development, and performance marketing to help businesses grow online.",
     },
     {
       question: "What digital marketing services do you offer?",
@@ -66,7 +66,7 @@ export default function AboutPage() {
       {/* HERO SECTION */}
       <section className="about-hero">
         <h1>
-          AI Digital Marketing Agency in India
+          AI Digital Marketing Company in India
           <br />
           <span
             className="about-hero-rotating"
@@ -78,7 +78,7 @@ export default function AboutPage() {
 
         <p className="about-hero-p">
           Serving 16K+ Clients Worldwide, Scaling Brands with Data-Driven Growth.
-Fawarisone Technologies is a leading AI-powered digital marketing agency in India, delivering SEO, performance marketing, PPC, and social media strategies to drive measurable online growth.
+Fawarisone Technologies is a leading AI-powered digital marketing company in India, delivering SEO, performance marketing, PPC, and social media strategies to drive measurable online growth.
         </p>
 
         <a
@@ -131,10 +131,10 @@ Fawarisone Technologies is a leading AI-powered digital marketing agency in Indi
 
           <div className="about-content-left">
             <h2 className="about-content-heading">
-              Top Digital Marketing Agency in India
+              Top digital marketing company in India
             </h2>
             <p className="about-content-desc">
-              Fawarisone Technologies is India's leading digital marketing agency specializing in SEO, PPC, social media marketing, website development, and performance marketing. We help startups, SMBs, and enterprises grow online with data-driven strategies, AI-powered SEO, Google Ads, content marketing, and conversion rate optimization. Our expert team delivers measurable results — higher Google rankings, increased website traffic, quality lead generation, and maximum ROI. Whether you need local SEO, eCommerce SEO, paid advertising, or complete online branding, we build custom digital marketing solutions tailored to your business goals.
+              Fawarisone Technologies is India's leading digital marketing company specializing in SEO, PPC, social media marketing, website development, and performance marketing. We help startups, SMBs, and enterprises grow online with data-driven strategies, AI-powered SEO, Google Ads, content marketing, and conversion rate optimization. Our expert team delivers measurable results — higher Google rankings, increased website traffic, quality lead generation, and maximum ROI. Whether you need local SEO, eCommerce SEO, paid advertising, or complete online branding, we build custom digital marketing solutions tailored to your business goals.
             </p>
             <a
               href="https://wa.me/919540003620"
@@ -149,7 +149,7 @@ Fawarisone Technologies is a leading AI-powered digital marketing agency in Indi
           <div className="about-content-right">
             <div className="about-content-box">
               <p className="about-content-box-title">Who We Are</p>
-              <p className="about-content-box-text">At Fawarisone Technologies, we are a results-driven digital marketing agency in India helping businesses grow with powerful SEO services, PPC advertising, social media marketing, and online branding strategies.</p>
+              <p className="about-content-box-text">At Fawarisone Technologies, we are a results-driven digital marketing company in India helping businesses grow with powerful SEO services, PPC advertising, social media marketing, and online branding strategies.</p>
             </div>
             <div className="about-content-box">
               <p className="about-content-box-title">What We Do</p>
@@ -174,7 +174,7 @@ Fawarisone Technologies is a leading AI-powered digital marketing agency in Indi
         </h2>
         <div className="about-form-underline" />
         <p className="about-form-subtext">
-          Contact India's top digital marketing agency for SEO, PPC, website development & social media marketing services.
+          Contact India's top digital marketing company for SEO, PPC, website development & social media marketing services.
         </p>
         <form
           onSubmit={(e) => {
@@ -277,3 +277,4 @@ Fawarisone Technologies is a leading AI-powered digital marketing agency in Indi
     </div>
   );
 }
+
