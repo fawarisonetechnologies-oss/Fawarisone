@@ -244,6 +244,12 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
             >
               Schedule a Meeting
             </Link>
+            <Link
+              href="/services"
+              className="ml-3 border border-[#ff4081] text-[#ff4081] hover:bg-[#ff4081] hover:text-black px-6 py-2 rounded-[35px] font-semibold inline-block transition"
+            >
+              Our Services →
+            </Link>
           </div>
 
           {/* Right Rectangles (White Background) */}
@@ -403,6 +409,12 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
             <span className="text-[#ff4081]">Our Engineering Excellence</span>
           </h2>
           <div className="w-24 h-1 bg-[#ff4081] mt-4 mx-auto rounded"></div>
+          <p className="text-gray-400 mt-4 text-sm">
+            Explore all our services —{" "}
+            <Link href="/services" className="text-[#ff4081] underline hover:text-pink-400 transition">
+              View Full Services Page
+            </Link>
+          </p>
         </div>
 
         {/* Cards Grid */}
