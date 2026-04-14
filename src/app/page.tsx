@@ -28,6 +28,7 @@ import {
   BarChart2,
 } from "lucide-react";
 import "./home.css";
+import "../components/contact.css";
 
 // 🔹 Technology Icons
 const technologies = [
