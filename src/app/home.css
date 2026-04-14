@@ -1,0 +1,10 @@
+/* ===== HOME PAGE STYLES ONLY ===== */
+
+/* Feature boxes */
+.feature-box {
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-2px);
+}

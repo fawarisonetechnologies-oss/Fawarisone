@@ -28,7 +28,7 @@
 }
 
 .about-hero h1 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #00bfff;
   line-height: 1.2;
@@ -37,7 +37,7 @@
 
 @media (min-width: 640px) {
   .about-hero h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
 }
 
@@ -56,11 +56,28 @@
 
 .about-hero p,
 .about-hero-p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #9ca3af;
   max-width: 48rem;
   margin: 0 auto;
-  line-height: 1.7;
+  line-height: 1.75rem;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about-hero p,
+  .about-hero-p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-hero p,
+  .about-hero-p {
+    max-width: 100%;
+  }
 }
 
 .about-hero-btn {
@@ -251,8 +268,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 @media (min-width: 1024px) {
@@ -295,10 +312,16 @@
 }
 
 .about-content-desc {
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   color: #9ca3af;
-  line-height: 1.7;
+  line-height: 1.8;
   margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .about-content-desc {
+    font-size: 1rem;
+  }
 }
 
 .about-content-btn {
@@ -386,6 +409,7 @@
   background: #000;
   padding: 48px 16px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {
@@ -439,20 +463,30 @@
 }
 
 .about-form-subtext {
-  font-size: 1.125rem;
+  font-size: 0.95rem;
   color: #9ca3af;
   max-width: 36rem;
   margin: 0 auto 32px auto;
   line-height: 1.7;
+  padding: 0 8px;
+}
+
+@media (min-width: 640px) {
+  .about-form-subtext {
+    font-size: 1.125rem;
+    padding: 0;
+  }
 }
 
 .about-form {
+  width: 100%;
   max-width: 42rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
   text-align: left;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {
@@ -478,6 +512,7 @@
 .about-form-input,
 .about-form-select {
   width: 100%;
+  max-width: 100%;
   padding: 10px 14px;
   background: #000;
   border: 1px solid #374151;
@@ -487,6 +522,8 @@
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 @media (min-width: 640px) {
@@ -518,6 +555,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {

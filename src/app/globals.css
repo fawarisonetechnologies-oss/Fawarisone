@@ -187,3 +187,13 @@ body {
 .content-scroll-inner strong {
   color: #fff;
 }
+
+.contact-hero-subtext {
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .contact-hero-subtext {
+    text-align: center;
+  }
+}

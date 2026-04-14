@@ -1,0 +1,112 @@
+/* ===== CONTACT PAGE STYLES ===== */
+
+/* Hero */
+.contact-hero {
+  width: 100%;
+  background: #000;
+  padding: 80px 24px;
+  margin-top: 56px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-hero h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #00bfff;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .contact-hero h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-hero h1 {
+    font-size: 3rem;
+  }
+}
+
+.contact-hero-rotating {
+  display: inline-block;
+  margin-top: 16px;
+  color: #ec4899;
+  transition: opacity 0.5s;
+}
+
+.contact-hero-desc {
+  font-size: 1rem;
+  color: #9ca3af;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.75rem;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .contact-hero-desc {
+    text-align: center;
+  }
+}
+
+.contact-hero-btn {
+  display: inline-block;
+  background: #ec4899;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.contact-hero-btn:hover {
+  background: #db2777;
+}
+
+/* Services Scroller */
+.contact-services-section {
+  width: 100%;
+  background: #fff;
+  padding: 64px 0;
+}
+
+.contact-services-heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .contact-services-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.contact-services-heading span {
+  color: #00bfff;
+}
+
+.contact-services-underline {
+  width: 96px;
+  height: 4px;
+  background: #00bfff;
+  border-radius: 9999px;
+  margin: 0 auto 32px auto;
+}
+
+/* Map */
+.contact-map {
+  width: 100%;
+  display: block;
+  border: 0;
+}
