@@ -1,8 +1,10 @@
 import { TrendingUp, MousePointerClick, Code, Megaphone, ArrowUpRight, ShoppingBag, Stethoscope, Banknote, GraduationCap, Cloud, Home as HomeIcon, ConciergeBell, Car, Brush, Wind, Zap, Atom, Layers, Server, Database, Flame } from "lucide-react";
+import dynamic from "next/dynamic";
 import ServicesHero from "@/components/ServicesHero";
-import ServicesFaq from "@/components/ServicesFaq";
-import ContactSection from "@/components/ContactSection";
 import "./services.css";
+
+const ServicesFaq = dynamic(() => import("@/components/ServicesFaq"), { ssr: false });
+const ContactSection = dynamic(() => import("@/components/ContactSection"), { ssr: false });
 
 const services = [
   {
