@@ -219,10 +219,10 @@ export default function ServicesPage() {
               </h3>
               <div className="services-card-tags">
                 {cat.items.map((item, j) => (
-                  <a key={j} href={`/services/${item.slug}`} className="services-card-tag">
+                  <span key={j} className="services-card-tag">
                     <span className="services-card-tag-text">{item.label}</span>
                     <ArrowUpRight size={11} className="services-card-tag-icon" />
-                  </a>
+                  </span>
                 ))}
               </div>
               {cat.subCategory && (
@@ -236,10 +236,10 @@ export default function ServicesPage() {
                   </h3>
                   <div className="services-card-tags">
                     {cat.subCategory.items.map((item, j) => (
-                      <a key={j} href={`/services/${item.slug}`} className="services-card-tag">
+                      <span key={j} className="services-card-tag">
                         <span className="services-card-tag-text">{item.label}</span>
                         <ArrowUpRight size={11} className="services-card-tag-icon" />
-                      </a>
+                      </span>
                     ))}
                   </div>
                 </>
@@ -333,7 +333,7 @@ export default function ServicesPage() {
               <h2>Grow Your Business with Expert Web Development &amp; Digital Marketing Services in India</h2>
               <p>In todays world having an online presence is really important for a business to do well. You cannot ignore this. If you have a business whether it is a business or a big company, your website and the way you market your business online are very important. Your website and online marketing help your business get customers get people interested, in what your business does and make money for your business.</p>
               <p>At <a href="https://www.fawarisone.com/">Fawarisone Technologies</a> we are very good at making websites and marketing plans that work for our clients. We have been doing this for, over sixteen years. We help companies make websites that&apos;re strong get found on search engines and turn visitors into customers who pay.</p>
-              <p>We do not just make websites we make experiences that help businesses grow and get results that you can measure.</p>
+              <p>We do not just make websites we make experiences that help businesses grow and get results that you can measure. <a href="/blog" className="text-[#00bfff] hover:underline">Read our latest tips and insights on our blog.</a></p>
               <h2>Why Choose Us&nbsp;</h2>
               <p>Choosing the right digital company can make or break your online success. Here&rsquo;s why businesses trust us:</p>
               <h3>Proven Industry Experience</h3>
