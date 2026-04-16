@@ -53,8 +53,8 @@ export default function Footer() {
                                 <li><Link href="/services/ui-ux-design" className="hover:text-white transition">UI/UX Design</Link></li>
                                 <li><Link href="/services/mobile-apps" className="hover:text-white transition">Mobile App Development</Link></li>
                                 <li><Link href="/services/wordpress-development" className="hover:text-white transition">WordPress Development</Link></li>
-                                <li><Link href="/services/web-development" className="hover:text-white transition">Website Maintenance</Link></li>
-                                <li><Link href="/services/web-development" className="hover:text-white transition">Custom Web Applications</Link></li>
+                                <li>Website Maintenance</li>
+                                <li>Custom Web Applications</li>
                             </ul>
                         </div>
 
@@ -79,9 +79,9 @@ export default function Footer() {
                                 <li><Link href="/services/seo-content-writing" className="hover:text-white transition">Content Marketing</Link></li>
                                 <li><Link href="/services/social-media-marketing" className="hover:text-white transition">Social Media Management</Link></li>
                                 <li><Link href="/services/ppc-ads" className="hover:text-white transition">Pay Per Click (PPC)</Link></li>
-                                <li><Link href="/services/web-development" className="hover:text-white transition">Email Marketing</Link></li>
+                                <li>Email Marketing</li>
                                 <li><Link href="/services/brand-management" className="hover:text-white transition">Online Branding</Link></li>
-                                <li><Link href="/services/organic-social-media" className="hover:text-white transition">Influencer Marketing</Link></li>
+                                <li>Influencer Marketing</li>
                                 <li><Link href="/services/conversion-optimization" className="hover:text-white transition">Performance Marketing</Link></li>
                             </ul>
                         </div>
@@ -95,7 +95,7 @@ export default function Footer() {
                                 <li>Tutorials</li>
                                 <li>Marketing Guides</li>
                                 <li>Industry Insights</li>
-                                <li><Link href="/services#faq" className="hover:text-white transition">FAQs</Link></li>
+                                <li>FAQs</li>
                                 <li><Link href="/contact" className="hover:text-white transition">Free Consultation</Link></li>
                             </ul>
                         </div>
