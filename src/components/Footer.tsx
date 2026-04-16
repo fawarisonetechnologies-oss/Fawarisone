@@ -47,12 +47,12 @@ export default function Footer() {
                         <div>
                             <h4 className="font-semibold mb-2">Services</h4>
                             <ul className="space-y-1 text-gray-400">
-                                <li><Link href="/services/web-development" className="hover:text-white transition">Website Development</Link></li>
-                                <li><Link href="/services/landing-pages" className="hover:text-white transition">Landing Pages</Link></li>
-                                <li><Link href="/services/ecommerce-seo" className="hover:text-white transition">eCommerce Solutions</Link></li>
-                                <li><Link href="/services/ui-ux-design" className="hover:text-white transition">UI/UX Design</Link></li>
-                                <li><Link href="/services/mobile-apps" className="hover:text-white transition">Mobile App Development</Link></li>
-                                <li><Link href="/services/wordpress-development" className="hover:text-white transition">WordPress Development</Link></li>
+                                <li>Website Development</li>
+                                <li>Landing Pages</li>
+                                <li>eCommerce Solutions</li>
+                                <li>UI/UX Design</li>
+                                <li>Mobile App Development</li>
+                                <li>WordPress Development</li>
                                 <li>Website Maintenance</li>
                                 <li>Custom Web Applications</li>
                             </ul>
@@ -75,14 +75,14 @@ export default function Footer() {
                         <div>
                             <h4 className="font-semibold mb-2">Marketing</h4>
                             <ul className="space-y-1 text-gray-400">
-                                <li><Link href="/services/seo-services" className="hover:text-white transition">SEO Optimization</Link></li>
-                                <li><Link href="/services/seo-content-writing" className="hover:text-white transition">Content Marketing</Link></li>
-                                <li><Link href="/services/social-media-marketing" className="hover:text-white transition">Social Media Management</Link></li>
-                                <li><Link href="/services/ppc-ads" className="hover:text-white transition">Pay Per Click (PPC)</Link></li>
+                                <li>SEO Optimization</li>
+                                <li>Content Marketing</li>
+                                <li>Social Media Management</li>
+                                <li>Pay Per Click (PPC)</li>
                                 <li>Email Marketing</li>
-                                <li><Link href="/services/brand-management" className="hover:text-white transition">Online Branding</Link></li>
+                                <li>Online Branding</li>
                                 <li>Influencer Marketing</li>
-                                <li><Link href="/services/conversion-optimization" className="hover:text-white transition">Performance Marketing</Link></li>
+                                <li>Performance Marketing</li>
                             </ul>
                         </div>
 
