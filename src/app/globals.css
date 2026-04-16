@@ -113,14 +113,14 @@ body {
 }
 
 .content-scroll-inner p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #9ca3af;
-  line-height: 1.8;
+  line-height: 1.75rem;
   margin: 0;
 }
 
 .content-scroll-inner h1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #00bfff;
   margin: 0;
@@ -128,7 +128,7 @@ body {
 }
 
 .content-scroll-inner h2 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #00bfff;
   margin: 0;
@@ -136,14 +136,14 @@ body {
 }
 
 .content-scroll-inner h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #00bfff;
   margin: 0;
 }
 
 .content-scroll-inner h4 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   margin: 0;
@@ -158,13 +158,13 @@ body {
 }
 
 .content-scroll-inner li {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #9ca3af;
-  line-height: 1.7;
+  line-height: 1.75rem;
 }
 
 .content-scroll-inner h4 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   margin: 0;
@@ -179,9 +179,9 @@ body {
 }
 
 .content-scroll-inner li {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #9ca3af;
-  line-height: 1.7;
+  line-height: 1.75rem;
 }
 
 .content-scroll-inner strong {
