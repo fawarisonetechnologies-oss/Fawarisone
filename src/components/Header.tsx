@@ -39,7 +39,7 @@ export default function Header() {
             );
           })}
           <Link
-            href="/help"
+            href="/contact"
             className="ml-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-full transition"
           >
             Get Help
@@ -74,7 +74,7 @@ export default function Header() {
             );
           })}
           <Link
-            href="/help"
+            href="/contact"
             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-full transition"
             onClick={() => setMobileMenuOpen(false)}
           >
