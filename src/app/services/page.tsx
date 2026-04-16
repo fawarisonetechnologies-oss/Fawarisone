@@ -326,7 +326,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CONTENT SCROLL BOX */}
-      <section className="services-content-scroll-section">
+      <section id="content" className="services-content-scroll-section">
         <div className="services-content-scroll-wrap">
           <div className="content-scroll-box">
             <div className="content-scroll-inner">
