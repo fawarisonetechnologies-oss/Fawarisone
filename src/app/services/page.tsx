@@ -3,8 +3,8 @@ import dynamic from "next/dynamic";
 import ServicesHero from "@/components/ServicesHero";
 import "./services.css";
 
-const ServicesFaq = dynamic(() => import("@/components/ServicesFaq"), { ssr: false });
-const ContactSection = dynamic(() => import("@/components/ContactSection"), { ssr: false });
+const ServicesFaq = dynamic(() => import("@/components/ServicesFaq"));
+const ContactSection = dynamic(() => import("@/components/ContactSection"));
 
 const services = [
   {
