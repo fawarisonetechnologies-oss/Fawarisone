@@ -421,7 +421,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {/* Service Card */}
           <a
-            href="/services/mobile-apps" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Mobile App Development</div>
@@ -431,7 +431,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/web-development" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Software Development</div>
@@ -441,7 +441,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/seo-services" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Digital Transformation</div>
@@ -451,7 +451,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/ui-ux-design" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">UI/UX Strategy</div>
@@ -461,7 +461,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/ppc-ads" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">IT Consulting</div>
@@ -471,7 +471,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/web-development" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">DevOps</div>
@@ -481,7 +481,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           </a>
 
           <a
-            href="/services/cms-development" target="_blank"
+            href="/services" target="_blank"
             className="cursor-pointer bg-[#111] p-6 rounded-xl border border-[#1f1f1f] hover:shadow-xl hover:border-[#ff4081] transition block"
           >
             <div className="text-xl font-medium mb-2">Cloud Services</div>
