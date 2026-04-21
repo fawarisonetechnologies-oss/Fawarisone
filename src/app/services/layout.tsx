@@ -4,6 +4,10 @@ export const metadata: Metadata = {
   title: "Web Development & Digital Marketing Services in India | Fawarisone Technologies",
   description:
     "Fawarisone Technologies offers expert web development, SEO, PPC, branding, and digital marketing services in India. Grow your business online with proven strategies and measurable results.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "web development services India",
     "digital marketing services India",
