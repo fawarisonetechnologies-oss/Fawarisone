@@ -15,10 +15,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img
-            src="/FawarisOneTechnologies-logo.png" // Make sure your logo is in the public/ folder
+          <Image
+            src="/FawarisOneTechnologies-logo.png"
             alt="Fawarisone Technologies"
-            className="h-14 w-auto" // Adjust height; width auto keeps aspect ratio
+            width={120}
+            height={56}
+            priority
+            className="h-14 w-auto"
           />
         </Link>
 

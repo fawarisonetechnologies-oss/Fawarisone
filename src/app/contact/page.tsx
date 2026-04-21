@@ -138,6 +138,7 @@ export default function ContactPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="Fawarisone Technologies Office Location"
         />
       </section>
 

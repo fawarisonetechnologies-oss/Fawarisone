@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { FaTwitter, FaTelegram, FaLinkedinIn, FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
@@ -14,10 +15,13 @@ export default function Footer() {
                             <div className="logo">
                                 {/* Logo */}
                                 <Link href="/" className="flex items-center">
-                                    <img
-                                        src="/FawarisOneTechnologies-logo.png" // Make sure your logo is in the public/ folder
+                                    <Image
+                                        src="/FawarisOneTechnologies-logo.png"
                                         alt="Fawarisone"
-                                        className="h-14 w-auto" // Adjust height; width auto keeps aspect ratio
+                                        width={120}
+                                        height={56}
+                                        loading="lazy"
+                                        className="h-14 w-auto"
                                     />
                                 </Link>
                             </div>

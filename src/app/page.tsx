@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ShoppingBag,
@@ -388,9 +389,12 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
 
     {/* Image Section */}
    <div className="flex justify-center">
-  <img
+  <Image
     src="/Fawarisone-marketing.png"
     alt="AI Digital Agency Office"
+    width={400}
+    height={400}
+    priority
     className="w-[50%] animate-smoothPulse"
   />
 </div>
@@ -648,10 +652,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 1 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Microsoft"
+                width={40}
+                height={40}
+                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Microsoft</h3>
             </div>
@@ -663,10 +670,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 2 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Apple"
+                width={40}
+                height={40}
+                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Apple</h3>
             </div>
@@ -678,10 +688,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 3 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png"
                 className="w-10 h-10 object-contain invert"
                 alt="Google"
+                width={40}
+                height={40}
+                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Google</h3>
             </div>
