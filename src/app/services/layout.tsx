@@ -28,6 +28,7 @@ export const metadata: Metadata = {
       "Fawarisone Technologies offers expert web development, SEO, PPC, branding, and digital marketing services in India. Grow your business online with proven strategies and measurable results.",
     url: "https://fawarisone.com/services",
     siteName: "Fawarisone Technologies",
+
     type: "website",
     images: [
       {

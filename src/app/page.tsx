@@ -652,13 +652,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 1 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <Image
+              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Microsoft"
+                loading="lazy"
                 width={40}
                 height={40}
-                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Microsoft</h3>
             </div>
@@ -670,13 +670,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 2 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <Image
+              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Apple"
+                loading="lazy"
                 width={40}
                 height={40}
-                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Apple</h3>
             </div>
@@ -688,13 +688,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
           {/* Review 3 */}
           <div className="group border-l-4 border-[#ff4081] pl-6 hover:bg-[#1a1a1a] transition">
             <div className="flex items-center gap-4 mb-4">
-              <Image
+              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png"
                 className="w-10 h-10 object-contain invert"
                 alt="Google"
+                loading="lazy"
                 width={40}
                 height={40}
-                loading="lazy"
               />
               <h3 className="text-lg font-semibold text-white">Google</h3>
             </div>

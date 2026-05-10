@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { navLinks } from "@/lib/nav";
-import Image from "next/image";
 
 export default function Header() {
   const pathname = usePathname();
@@ -15,13 +14,12 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Image
+          <img
             src="/FawarisOneTechnologies-logo.png"
             alt="Fawarisone Technologies"
+            className="h-14 w-auto"
             width={120}
             height={56}
-            priority
-            className="h-14 w-auto"
           />
         </Link>
 

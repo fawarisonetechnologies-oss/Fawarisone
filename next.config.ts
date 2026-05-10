@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
       { source: "/services/ppc-ads", destination: "/services", permanent: true },
       { source: "/services/cms-development", destination: "/services", permanent: true },
       { source: "/services/:slug", destination: "/services", permanent: true },
-      { source: "/blog", destination: "/services#content", permanent: true },
+      { source: "/blog", destination: "/services", permanent: true },
     ];
   },
 

@@ -15,13 +15,13 @@ export default function Footer() {
                             <div className="logo">
                                 {/* Logo */}
                                 <Link href="/" className="flex items-center">
-                                    <Image
+                                    <img
                                         src="/FawarisOneTechnologies-logo.png"
                                         alt="Fawarisone"
+                                        className="h-14 w-auto"
                                         width={120}
                                         height={56}
                                         loading="lazy"
-                                        className="h-14 w-auto"
                                     />
                                 </Link>
                             </div>
