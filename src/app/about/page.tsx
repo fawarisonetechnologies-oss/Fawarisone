@@ -1,6 +1,7 @@
 import AboutHero from "@/components/AboutHero";
 import AboutFaq from "@/components/AboutFaq";
 import ContactSection from "@/components/ContactSection";
+import Link from "next/link";
 import "./about.css";
 
 export default function AboutPage() {
@@ -50,14 +51,22 @@ export default function AboutPage() {
             <p className="about-content-desc">
               Fawarisone Technologies is India&apos;s leading digital marketing company specializing in SEO, PPC, social media marketing, website development, and performance marketing. We help startups, SMBs, and enterprises grow online with data-driven strategies, AI-powered SEO, Google Ads, content marketing, and conversion rate optimization. Our expert team delivers measurable results — higher Google rankings, increased website traffic, quality lead generation, and maximum ROI. Whether you need local SEO, eCommerce SEO, paid advertising, or complete online branding, we build custom digital marketing solutions tailored to your business goals.
             </p>
-            <a
-              href="https://wa.me/919540003620"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="about-content-btn"
-            >
-              Get Free Consultation
-            </a>
+            <div className="flex gap-4 flex-wrap mt-2">
+              <a
+                href="https://wa.me/919540003620"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="about-content-btn"
+              >
+                Get Free Consultation
+              </a>
+              <Link href="/" className="about-content-btn" style={{ background: "transparent", border: "1px solid #00bfff", color: "#00bfff" }}>
+                Visit Homepage
+              </Link>
+              <Link href="/services" className="about-content-btn" style={{ background: "transparent", border: "1px solid #ec4899", color: "#ec4899" }}>
+                Our Services
+              </Link>
+            </div>
           </div>
           <div className="about-content-right">
             <div className="about-content-box">

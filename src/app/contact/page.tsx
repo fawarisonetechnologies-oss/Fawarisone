@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Globe, FileText, ShoppingCart, Palette, Smartphone, Wind, Wrench, Code, Video, Film, Clapperboard, Sparkles, Pen, Share2, Play, TrendingUp, Search, BookOpen, Users, MousePointerClick, Mail, Megaphone, Star, BarChart2 } from "lucide-react";
 import ContactSection from "@/components/ContactSection";
+import Link from "next/link";
 import "./contact.css";
 
 const allServices = [
@@ -79,8 +80,10 @@ export default function ContactPage() {
         </h1>
         <p className="contact-hero-desc">
           Looking for professional SEO services, Google Ads PPC management,
-          AI powered SEO, or modern website development? Fawarisone Technologies
-          helps businesses grow with powerful digital solutions.
+          AI powered SEO, or modern website development? <Link href="/" className="text-[#00bfff] hover:underline">Fawarisone Technologies</Link>{" "}
+          helps businesses grow with powerful digital solutions.{" "}
+          <Link href="/services" className="text-[#ec4899] hover:underline">Explore our services</Link> or{" "}
+          <Link href="/about" className="text-[#00bfff] hover:underline">learn more about us</Link>.
         </p>
         <a
           href="https://wa.me/919540003620"

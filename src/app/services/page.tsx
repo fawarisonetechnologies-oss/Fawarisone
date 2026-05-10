@@ -1,4 +1,5 @@
 import { TrendingUp, MousePointerClick, Code, Megaphone, ArrowUpRight, ShoppingBag, Stethoscope, Banknote, GraduationCap, Cloud, Home as HomeIcon, ConciergeBell, Car, Brush, Wind, Zap, Atom, Layers, Server, Database, Flame } from "lucide-react";
+import Link from "next/link";
 import dynamic from "next/dynamic";
 import ServicesHero from "@/components/ServicesHero";
 import "./services.css";
@@ -392,6 +393,8 @@ export default function ServicesPage() {
           <p>
             Partner with India&apos;s leading digital marketing agency for SEO, PPC, website
             development, and social media marketing. Get a free consultation today.
+            <br />
+            <Link href="/" className="text-[#00bfff] hover:underline text-sm mt-2 inline-block">← Back to Homepage</Link>
           </p>
           <a
             href="https://wa.me/919540003620"
