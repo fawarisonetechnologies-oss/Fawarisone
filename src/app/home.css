@@ -4,29 +4,50 @@
 .hero-wavy {
   position: relative;
   overflow: hidden;
-  background-image: url('/hero-wavy-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #000;
+  background: linear-gradient(135deg, #000000 0%, #0a0a1a 50%, #000000 100%);
 }
 
 .hero-wavy::before {
   content: "";
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  bottom: -10px;
+  left: 0;
+  width: 200%;
+  height: 160px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 160'%3E%3Cpath fill='%2300bfff' fill-opacity='0.12' d='M0,80 C180,140 360,20 540,80 C720,140 900,20 1080,80 C1260,140 1350,60 1440,80 L1440,160 L0,160 Z'/%3E%3Cpath fill='%2300bfff' fill-opacity='0.07' d='M0,100 C200,40 400,160 600,100 C800,40 1000,160 1200,100 C1300,70 1380,110 1440,100 L1440,160 L0,160 Z'/%3E%3C/svg%3E") repeat-x bottom;
+  background-size: 50% 160px;
+  animation: wave-move 8s linear infinite;
   pointer-events: none;
   z-index: 0;
 }
 
 .hero-wavy::after {
-  content: none;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 200%;
+  height: 140px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 140'%3E%3Cpath fill='%23ec4899' fill-opacity='0.1' d='M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 C1320,90 1400,40 1440,60 L1440,0 L0,0 Z'/%3E%3Cpath fill='%23ec4899' fill-opacity='0.06' d='M0,40 C180,100 360,0 540,40 C720,80 900,10 1080,40 C1260,70 1360,20 1440,40 L1440,0 L0,0 Z'/%3E%3C/svg%3E") repeat-x top;
+  background-size: 50% 140px;
+  animation: wave-move-reverse 10s linear infinite;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .hero-wavy > * {
   position: relative;
   z-index: 1;
+}
+
+@keyframes wave-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes wave-move-reverse {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); }
 }
 
 .feature-box {
