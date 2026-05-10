@@ -22,17 +22,7 @@
 }
 
 .hero-wavy::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 200%;
-  height: 140px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 140'%3E%3Cpath fill='%23ffffff' fill-opacity='0.05' d='M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 C1320,90 1400,40 1440,60 L1440,0 L0,0 Z'/%3E%3Cpath fill='%23ffffff' fill-opacity='0.03' d='M0,40 C180,100 360,0 540,40 C720,80 900,10 1080,40 C1260,70 1360,20 1440,40 L1440,0 L0,0 Z'/%3E%3C/svg%3E") repeat-x top;
-  background-size: 50% 140px;
-  animation: wave-move-reverse 10s linear infinite;
-  pointer-events: none;
-  z-index: 0;
+  content: none;
 }
 
 .hero-wavy > * {
