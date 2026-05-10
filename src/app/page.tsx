@@ -221,7 +221,7 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-10">
           {/* Left Content */}
           <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-            <h1 className="text-2xl lg:text-3xl font-bold leading-tight">
+            <h1 className="text-2xl lg:text-4xl font-bold leading-tight">
               We are a{" "}
               <span className="text-[#ff4081] hover:text-[#e73370]">
                 Custom Web App
