@@ -169,7 +169,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
       {/* 🌟 HERO SECTION */}
-<section className="w-full bg-black py-20 px-6 mt-14 text-center space-y-6 hero-wavy">
+<section className="w-full py-20 px-6 mt-14 text-center space-y-6 hero-wavy">
   <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#00bfff]">
   Grow Your Business With Our
   <br />
