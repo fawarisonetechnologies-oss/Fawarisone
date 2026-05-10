@@ -169,7 +169,17 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
       {/* 🌟 HERO SECTION */}
-<section className="w-full bg-black py-20 px-6 mt-14 text-center space-y-6">
+<section className="w-full bg-black py-20 px-6 mt-14 text-center space-y-6 relative overflow-hidden">
+  {/* Wavy background */}
+  <div className="absolute inset-0 z-0 pointer-events-none">
+    <svg className="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#00bfff" fillOpacity="0.05" d="M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,154.7C672,149,768,171,864,181.3C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/>
+    </svg>
+    <svg className="absolute top-0 right-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#ec4899" fillOpacity="0.04" d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,90.7C672,85,768,107,864,122.7C960,139,1056,149,1152,138.7C1248,128,1344,96,1392,80L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"/>
+    </svg>
+  </div>
+  <div className="relative z-10 space-y-6">
   <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#00bfff]">
   Grow Your Business With Our
   <br />
@@ -194,6 +204,7 @@ export default function Home() {
   >
     Schedule a Call
   </Link>
+  </div>
 </section>
 
       {/* About Section */}
