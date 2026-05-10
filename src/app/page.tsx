@@ -243,13 +243,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
               rel="noopener noreferrer"
               className="bg-[#ff4081] hover:bg-[#e73370] text-black px-6 py-2 rounded-[35px] font-semibold inline-block"
             >
-              Schedule a meeting with us
+              Schedule a Meeting
             </Link>
             <Link
               href="/services"
               className="ml-3 border border-[#ff4081] text-[#ff4081] hover:bg-[#ff4081] hover:text-black px-6 py-2 rounded-[35px] font-semibold inline-block transition"
             >
-              Explore the services we offer →
+              Explore Our Services →
             </Link>
           </div>
 
