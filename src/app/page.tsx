@@ -221,19 +221,20 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-10">
           {/* Left Content */}
           <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-            <h1 className="text-3xl lg:text-5xl font-bold leading-tight">
-              Full{" "}
+            <h1 className="text-2xl lg:text-3xl font-bold leading-tight">
+              We are a{" "}
               <span className="text-[#ff4081] hover:text-[#e73370]">
-                Stack Digital
+                Custom Web App
               </span>
               <br />
-              <span className="text-[#ff4081] hover:text-[#e73370]">Marketing</span>{" "}
-              Agency
+              <span className="text-[#ff4081] hover:text-[#e73370]">Development</span>{" "}
+              and Digital Marketing Company
             </h1>
 
             <p className="text-gray-300 text-sm lg:text-base">
-              Specializing in Generating Leads and Sales for Startups & SMBs with
-              Custom Digital Marketing Solutions.
+              We help startups and small businesses build good web applications.
+              We also help them get noticed online and get more people to contact them.
+              We do this by using things like SEO and PPC and other digital marketing methods that really work.
             </p>
 
             <Link
@@ -242,13 +243,13 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
               rel="noopener noreferrer"
               className="bg-[#ff4081] hover:bg-[#e73370] text-black px-6 py-2 rounded-[35px] font-semibold inline-block"
             >
-              Schedule a Meeting
+              Schedule a meeting with us
             </Link>
             <Link
               href="/services"
               className="ml-3 border border-[#ff4081] text-[#ff4081] hover:bg-[#ff4081] hover:text-black px-6 py-2 rounded-[35px] font-semibold inline-block transition"
             >
-              Our Services →
+              Explore the services we offer →
             </Link>
           </div>
 
