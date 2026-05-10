@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import {
   ShoppingBag,
@@ -389,12 +388,9 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
 
     {/* Image Section */}
    <div className="flex justify-center">
-  <Image
+  <img
     src="/Fawarisone-marketing.png"
     alt="AI Digital Agency Office"
-    width={400}
-    height={400}
-    priority
     className="w-[50%] animate-smoothPulse"
   />
 </div>
@@ -656,9 +652,6 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Microsoft"
-                loading="lazy"
-                width={40}
-                height={40}
               />
               <h3 className="text-lg font-semibold text-white">Microsoft</h3>
             </div>
@@ -674,9 +667,6 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
                 src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
                 className="w-10 h-10 object-contain invert"
                 alt="Apple"
-                loading="lazy"
-                width={40}
-                height={40}
               />
               <h3 className="text-lg font-semibold text-white">Apple</h3>
             </div>
@@ -692,9 +682,6 @@ Empowering brands to grow smarter in the digital world is at the heart of what w
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png"
                 className="w-10 h-10 object-contain invert"
                 alt="Google"
-                loading="lazy"
-                width={40}
-                height={40}
               />
               <h3 className="text-lg font-semibold text-white">Google</h3>
             </div>

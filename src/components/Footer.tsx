@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { FaTwitter, FaTelegram, FaLinkedinIn, FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
@@ -19,9 +18,6 @@ export default function Footer() {
                                         src="/FawarisOneTechnologies-logo.png"
                                         alt="Fawarisone"
                                         className="h-14 w-auto"
-                                        width={120}
-                                        height={56}
-                                        loading="lazy"
                                     />
                                 </Link>
                             </div>

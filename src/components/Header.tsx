@@ -18,8 +18,6 @@ export default function Header() {
             src="/FawarisOneTechnologies-logo.png"
             alt="Fawarisone Technologies"
             className="h-14 w-auto"
-            width={120}
-            height={56}
           />
         </Link>
 
